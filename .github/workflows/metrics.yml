@@ -16,7 +16,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: github-metrics/base.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           user: ivel-mind
           template: classic
           config_timezone: Asia/Shanghai
@@ -26,7 +26,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: github-metrics/people.followers.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           user: ivel-mind
           base: ""
           plugin_people: yes
@@ -39,7 +39,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: github-metrics/isocalendar.fullyear.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           user: ivel-mind
           base: ""
           plugin_isocalendar: yes
