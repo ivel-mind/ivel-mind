@@ -35,6 +35,7 @@
 ## 在维护
 
 - [envfile](https://github.com/ivel-mind/envfile) — 读写 `.env`
+- [retrybox](https://github.com/ivel-mind/retrybox) — 固定次数重试
 - [clash-config-lint](https://github.com/ivel-mind/clash-config-lint) — 导入前检查 Clash Meta 配置
 - [proxy-uri](https://github.com/ivel-mind/proxy-uri) — 本机解析分享链接，不打印凭据
 
